@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franchise</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./css/rootStyles.css">
+    <link rel="stylesheet" href="/css/franchise.css">
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <div id="header"></div>
+
+
+    <section class="firstSection">
+        <div class="frontText">
+            <p class="withoutStroke"> FRANCHISING OPPORTUNITIES</p>
+            <hr style="width: 150px; margin: auto;">
+        </div>
+    </section>
+
+    <div class="detailsSection">
+        <img src="/media/go_fro_logo.png" class="goFroLogo" alt="">
+        <h4>●</h4>
+        <p class="detailsPara">Conceptualised by the directors of Gianis ice cream and The Waffle Co. in 2022, GoFro was
+            born with 5 stores
+            in Delhi NCR.</p><br>
+        <p class="detailsPara">Go Fro is renowned for its flavoured frozen yoghurts but it is not just a yogurt based
+            brand.
+            The Go Fro menu offers a huge variety that involves waffles, churros, coffee and french fries too!</p><br>
+        <p class="detailsPara" style="font-family:var(--font1);"><strong>Not to miss- the Go Fro outlets are instagram worthy and perfect for a quick
+                quirky eat-out.</p></strong>
+
+        <hr class="hrLine">
+
+        <div class="question">
+            <p class="head">Why choose Us?</p>
+            <h4>●</h4>
+        </div>
+        <div class="reasons">
+            <p class="detailsPara2">GoFro has extensive franchisee training programs that cover branding, business
+                management, and more.</p>
+            <div class="firstReason">
+                <div class="firstReasonImg">
+                    <img src="./media/marketing.jpg" alt="sitelogo">
+                </div>
+                <div class="firstReasonText">
+                    <p class="firstReasonTextHead"><strong>SITE SELECTION:-</strong></p>
+                    <p class="firstReasonTextPara">Our experts will provide you guidance with site selection and
+                        finalise on a mutually decided site.</p>
+                </div>
+            </div>
+
+            <div class="firstReason">
+                <div class="firstReasonImg">
+                    <img src="/media/training.jpg" alt="sitelogo">
+                </div>
+                <div class="firstReasonText">
+                    <p class="firstReasonTextHead"><strong>SETUP:-</strong><br></p>
+                    <p class="firstReasonTextPara">We support you with complete store designing and construction from
+                        the very beginning of action.</p>
+                </div>
+            </div>
+
+            <div class="firstReason">
+                <div class="firstReasonImg">
+                    <img src="/media/marketing.jpg" alt="sitelogo">
+                </div>
+                <div class="firstReasonText">
+                    <p class="firstReasonTextHead"><strong>MARKETING SUPPORT:-</strong><br></p>
+                    <p class="firstReasonTextPara">Complete social media support and brand creatives is provided in
+                        accordance of local markets.</p>
+                </div>
+            </div>
+
+            <!-- <div class="firstReason">
+                <div class="firstReasonImg">
+                    <img src="/media/training.jpg" alt="sitelogo">
+                </div>
+                <div class="firstReasonText">
+                    <p class="firstReasonTextHead"><strong>TRAINING:-</strong><br></p>
+                    <p class="firstReasonTextPara">Our experts provide with an ongoing tutorial to ensure that the
+                        quality of product is always up to
+                        the mark and the brand feel never diminish for the ongoing success of our franchisees.</p>
+                </div>
+            </div> -->
+
+            <div class="firstReason">
+                <div class="firstReasonImg">
+                    <img src="/media/training.jpg" alt="sitelogo">
+                </div>
+                <div class="firstReasonText">
+                    <p class="firstReasonTextHead"><strong>ACTIVE SUPPORT:-</strong><br></p>
+                    <p class="firstReasonTextPara">At Go Fro we go hand in hand which is why our team support and guide
+                        franchisees at every point of
+                        business.</p>
+                </div>
+            </div>
+        </div>
+
+        <a href="#franchiseFormSection" class="manualLink">
+            <button class="btn-primary-btn center" style="margin-top:3rem;">
+                GET STARTED
+            </button></a>
+
+    </div>
+
+
+    <div class="franchiseRequirements">
+        <p class="franchiseHead colorChange">FRANCHISE REQUIREMENTS</p>
+        <div class="franchiseRequirementDetails">
+
+            <div class="detail">
+                <h3>BASIC COST</h3>
+                <ul>
+                    <li>
+                        INR 16 Lacs
+                    </li>
+                </ul>
+            </div>
+
+            <div class="detail">
+
+                <h3>AREA REQUIRED</h3>
+                <ul>
+                    <li>
+                        150-400 sq. ft.
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="detail">
+                <h3>EXPANSION FORMAT</h3>
+                <ul>
+                    <li>
+                        KIOSK / STORE
+                    </li>
+                </ul>
+            </div>
+
+            <div class="detail">
+
+                <h3>AVERAGE ROI</h3>
+                <ul>
+                    <li>
+                        12-15 MONTHS
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="franchiseRequirementsDetails2">
+            <p>Start your Entrepreneurial now with the best-in-class gofro.</p>
+            <a href="#franchiseFormSection" class="manualLink">
+                <button class="btn-primary-btn">
+                    GET STARTED
+                </button></a>
+        </div>
+    </div>
+
+
+    <!-- Franchise Form -->
+    <div id="franchiseForm"></div>
+
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+
+    <!-- Script Files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./script/index.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("./components/header.html");
+            $("#franchiseForm").load("./components/franchiseForm.html");
+            $("#footer").load("./components/footer.html");
+        });
+    </script>
+</body>
+
+</html>

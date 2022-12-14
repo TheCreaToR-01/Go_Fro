@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer</title>
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../css/rootStyles.css">
+    <link rel="stylesheet" href="../css/footer.css">
+</head>
+
+<body>
+    <footer class="footer">
+
+        <div class="footerContent">
+            <img src="../media/goFro_white.png" class="goFroLogo" alt="">
+            <!-- <h4>●</h4> -->
+            <hr>
+            <div class="centerSide">
+                <div class="quick-links">
+                    <h3>Quick Links</h3>
+                    <i class="fa-solid fa-chevron-down dropdown"></i>
+                    <ul class="dropdownContent">
+                        <li><a href="#">Flavours</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Catering</a></li>
+                        <li><a href="#">Our Locations</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Franchise</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+
+                <!-- Product Quick Links -->
+                <div class="productsQuick">
+                    <h3>Our Products</h3>
+                    <i class="fa-solid fa-chevron-down dropdown2"></i>
+                    <ul class="dropdownContent2">
+                        <li><a href="#">Frozen Yoghurt</a></li>
+                        <li><a href="#">Combo</a></li>
+                        <li><a href="#">Fries</a></li>
+                        <li><a href="#">Churros</a></li>
+                        <li><a href="#">Waffles</a></li>
+                        <li><a href="#">Toppings</a></li>
+                        <li><a href="#">Frappe</a></li>
+                    </ul>
+                </div>
+
+                <div class="productsQuick">
+                    <h3>Subscribe To Our Newsletter</h3>
+                    <input type="email" placeholder="YOUR EMAIL ADDRESS">
+                    <button class="subBtn">SUBSCRIBE</button>
+                </div>
+
+                <!-- Social Media Connect Icons-->
+                <div class="social-icons">
+                    <h3>Connect With Us</h3>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/gianisicecream/"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/gianisicecream/"><i class="bi bi-instagram"></i></a>
+                        <a href="https://twitter.com/hashtag/gianisicecream"><i class="bi bi-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="cc-text cc-text-header">GOFRO IS A CERTIFIED CORP</p>
+            <p class="cc-text cc-text-para"> © 2021 Gofro's. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Script Files -->
+
+    <script>
+        let dropdown = document.querySelector(".dropdown");
+        let dropdown2 = document.querySelector(".dropdown2");
+        let dropdownContent = document.querySelector(".dropdownContent");
+        let dropdownContent2 = document.querySelector(".dropdownContent2");
+
+        dropdown.addEventListener("click", function () {
+            dropdown.classList.toggle("active");
+
+            if ($(".dropdown").hasClass("active")) {
+                dropdownContent.style.display = "inline";
+                dropdown.style.transition = "0.2s ease-in-out";
+                dropdownContent.style.transition = "3.2s ease-in-out";
+            }
+            else {
+                dropdownContent.style.display = "none";
+            }
+        })
+
+        dropdown2.addEventListener("click", function () {
+            dropdown2.classList.toggle("active");
+
+            if ($(".dropdown2").hasClass("active")) {
+                dropdown2.style.transition = "0.2s ease-in-out";
+                dropdownContent2.style.transition = "3.2s ease-in-out";
+                dropdownContent2.style.display = "inline";
+            }
+            else {
+                dropdownContent2.style.display = "none";
+            }
+        })
+    </script>
+</body>
+
+</html>

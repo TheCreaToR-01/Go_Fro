@@ -1,0 +1,301 @@
+.frContainer {
+  background-color: rgb(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  /* border-radius: var(--radiusSize); */
+  padding: 2rem 0;
+  width: 100%;
+  /* flex-wrap: wrap; */
+}
+
+.franchiseFormSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: url(../media/formBg.jpg);
+  background-blend-mode: darken;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem 2rem;
+  flex-wrap: wrap;
+}
+
+.franchiseOtherDetails {
+  color: rgb(0, 0, 0);
+  max-width: 50%;
+  font-family: var(--font1);
+  background-color: white;
+  border-radius: 2rem;
+  padding: 3rem 2rem;
+  margin: 1rem;
+}
+
+
+.features-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width:640px;
+}
+
+.features-list li {
+  margin: 1rem;
+  display: inline-block;
+  background-color: white;
+  color: var(--secondary-color);
+  font-weight: bold;
+  padding: 16px;
+  border-radius: var(--radiusSize);
+  width: 150px;
+  height: 160px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.features-list li .frachisee_img {
+  /* overflow: hidden; */
+}
+
+.features-list li .frachisee_img img {
+  /* height: 100%; */
+}
+
+.features-list li .franchisee_content {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.features-list li .franchisee_content p:nth-child(1) {
+  font-size: var(--oneSizer);
+  font-family: var(--font1);
+}
+
+.features-list li .franchisee_content p:nth-child(2) {
+  font-family: var(--font2);
+  color: #2c2c2c;
+  font-weight: 400;
+  font-size: var(--oneSizer);
+}
+
+.features-list li p {
+  line-height: 20px;
+  font-size: var(--oneSizerThree);
+}
+
+.features-list li p:nth-child(2) {
+  font-family: var(--font1);
+}
+
+.features-list li p:nth-child(3) {
+  color: #2c2c2c;
+  font-weight: 400;
+  font-size: var(--oneSizer);
+  font-family: var(--font2);
+}
+
+.features-list li img {
+  /* width: 64px; */
+  /* margin-bottom: 8px; */
+}
+
+.features-list li::marker {
+  /* color: var(--secondary-color); */
+}
+
+.franchiseFirstHead {
+  font-family: var(--font1);
+  font-size: 3rem;
+  line-height: 45px;
+  margin-bottom: 0.5rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.franchiseHead {
+  font-family: var(--font1);
+  font-size: var(--twoSizer);
+  /* line-height: 0px; */
+  margin-bottom: 0.5rem;
+  font-weight: 900;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+.frStroke {
+  color: var(--secondary-color);
+  font-family: var(--font1);
+}
+
+.franchisePara {
+  font-family: var(--font2);
+  font-size: var(--oneSizer);
+  text-align: left;
+  margin-top: 0.4rem;
+  margin-bottom: 10px;
+  color: white;
+  width: 52%;
+}
+
+.btnFrDetails {
+  margin: 1rem 1rem 1rem 0rem;
+  padding: 1rem 3rem;
+  font-size: var(--oneSizer);
+  font-family: var(--font1);
+  font-weight: 700;
+  background-color: rgba(235, 22, 82, 0.9);
+  color: white;
+  border: none;
+  border-radius: 35px;
+}
+
+.btnFrDetails:hover {
+  cursor: pointer;
+  background-color: var(--secondary-color);
+}
+
+.franchiseForm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+  width: 80%;
+}
+
+.franchiseFormContent {
+  background-color: white;
+  background-blend-mode: darken;
+  background-position: center;
+  object-fit: cover;
+  /* padding: 5rem 3rem 2rem 3rem; */
+  padding: 2rem 3rem 2rem 3rem;
+  border-radius: var(--radiusSize);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+input {
+  margin: 0.5rem auto;
+  font-family: var(--font2) !important;
+  padding: 0.8rem 1.5rem;
+  border: 1px solid var(--secondary-color);
+  border-radius: var(--radiusSize);
+  outline: none;
+  width: inherit;
+  font-size: 0.7rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+textarea {
+  margin: 0.5rem auto;
+  font-family: var(--font2);
+  padding: 0.8rem 1.5rem;
+  border: 1px solid var(--secondary-color);
+  border-radius: var(--radiusSize);
+  outline: none;
+  width: inherit;
+  font-size: var(--oneSizer);
+}
+
+.franchiseFormContent {
+  width: 340px;
+  border: 2px solid #ff0084;
+  border: 2px solid -webkit-linear-gradient(to right, #33001b, #ff0084);
+  border: 2px solid linear-gradient(to right, #33001b, #ff0084);
+
+
+}
+
+.franchiseFormContent input,
+.franchiseFormContent textarea {
+  max-width: 300px;
+}
+
+.franchiseFormContent .submitBTN {}
+
+.submitBTN .btn-secondary-btn{
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.gianis_franchise_pic {
+  width: 30%;
+  height: 40rem;
+}
+
+.gianis_franchise_pic img {
+  width: 100%;
+  height: 100%;
+}
+
+
+@media all and (min-width:0px) and (max-width:1000px) {
+  .franchiseFormSection{
+    padding: 1rem 2rem;
+  }
+  .franchiseFirstHead{
+    font-size: var(--twoSizer);
+  }
+  .frContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .franchiseHead span{
+    font-size: var(--twoSizerThree) !important;
+  }
+
+  .frStroke{
+    line-height: 40px;
+    font-size: var(--twoSizer) !important;
+  }
+
+  .features-list {
+    margin: 1rem 0;
+    font-size: 0.5rem;
+  }
+
+  .franchisee_content p {
+    font-size: 0.2rem;
+  }
+
+  .features-list li {
+    width: 120px;
+    height: 125px;
+    padding: 10px;
+  }
+
+  .franchiseFormContent {
+    width: 300px;
+    padding-top: 3rem;
+  }
+
+  .franchiseFormContent input,
+  .franchiseFormContent textarea {
+    max-width: 265px;
+    padding: 0.8rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  .media-styler{
+    width: 50% !important;
+    margin: 1rem auto 0 auto !important;
+    padding: 1rem 0 !important;
+    display: block;
+    font-size: 1rem !important;
+  }
+}

@@ -1,0 +1,8 @@
+@media only screen and (max-width:1262px){
+    .left, .right{
+        display: none;
+    }
+    .hamburger{
+        display: none;
+    }
+}

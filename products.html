@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./css/rootStyles.css">
+    <link rel="stylesheet" href="/css/products.css">
+</head>
+
+<body>
+
+
+    <!-- Navbar Section -->
+    <div id="header"></div>
+
+    <section class="firstSection">
+        <div class="frontText">
+            <p class="withoutStroke"> OUR PRODUCTS</p>
+            <hr style="width: 150px; margin: auto;">
+        </div>
+    </section>
+
+    <!-- <section class="productSection">
+        <div class="card">
+            <div class="productImg">
+                <img src="/media/pr1.png" alt="">
+            </div>
+            <div class="productInfo">
+                <p> FROZEN YOGURT</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="productImg">
+                <img src="/media/pr2.png" alt="">
+            </div>
+            <div class="productInfo">
+                <p>CHURROS</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="productImg">
+                <img src="/media/pr3.png" alt="">
+            </div>
+            <div class="productInfo">
+                <p> WAFFLES</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="productImg">
+                <img src="/media/pr4.png" alt="">
+            </div>
+            <div class="productInfo">
+                <p> FRIES</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="productImg">
+                <img src="/media/pr5.png" alt="">
+            </div>
+            <div class="productInfo">
+                <p> FRAPPE & ESPRESSO</p>
+            </div>
+        </div>
+
+    </section> -->
+    <div class="products-intro">
+        <p class="introText">It’s always brunch-time somewhere in the world and there’s no better place to indulge than
+            at Wafflemeister! How about a savoury American brunch waffle followed by a sweet crêpe with a rich Illy flat
+            white? A savoury crêpe followed by one of our signature Liège waffles with gorgeous Belgian chocolate and a
+            mango yoghurt smoothie?
+            The choice is yours but whatever choice you make, you’ll have food envy looking at what the people next to
+            you are eating so you’ll have to come back to Wafflemeister and order what you missed out on first time
+            round!
+
+            Click the links below to go direct to your favourite section of the best menu in London!</p>
+    </div>
+
+    <!-- Menu Section -->
+
+    <div id="menuSection"></div>
+
+    <!-- Banner -->
+    <!-- <div class="bannerProductPage">
+        <img src="./media/Image8.jpg" alt="">
+    </div> -->
+
+
+    <section class="menu">
+        <div class="menuCard">
+            <img src="./media/menuCard.jpg" alt="">
+        </div>
+
+        <div class="menuDownloadBtn" >
+            <a href="./media/menuCard.jpg" download><button class="btn-primary-btn"  style="margin: 4rem auto; padding: 1.5rem 3rem !important;">
+                    Download Our Menu
+                </button></a>
+        </div>
+    </section>
+
+
+    <div id="footer"></div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+    $(function () {
+        $("#header").load("./components/header.html");
+        $("#menuSection").load("./components/menu.html");
+        $("#footer").load("./components/footer.html");
+    });
+</script>
+
+</html>

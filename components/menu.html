@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu</title>
+    <link rel="stylesheet" href="../css/rootStyles.css">
+    <link rel="stylesheet" href="../css/menu.css">
+</head>
+
+<body>
+    <div class="menuContainer">
+        <p class="bigHeading">Indulge in the Sweet Delight of our Range!</p>
+        <div class="menuLine1">
+            <div class="menu-box">
+                <img src="../media/prcard1.jpg" alt="prcard" class="box-img">
+                <div class="menu-box-content">
+                    <div class="content">
+                        <div class="name">
+                            <h4 class="menu-content-title">Frozen Yogurt</h4>
+                            <button class="btn-secondary-btn">SEE FULL RANGE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-box">
+                <img src="../media/prcard2.jpg" alt="prcard" class="box-img">
+                <div class="menu-box-content">
+                    <div class="content">
+                        <div class="name">
+                            <h4 class="menu-content-title">Churros</h4>
+                            <button class="btn-secondary-btn">SEE FULL RANGE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-box">
+                <img src="../media/prcard1.jpg" alt="prcard" class="box-img">
+                <div class="menu-box-content">
+                    <div class="content">
+                        <div class="name">
+                            <h4 class="menu-content-title">Very Strawberry</h4>
+                            <button class="btn-secondary-btn">SEE FULL RANGE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-box">
+                <img src="../media/prcard2.jpg" alt="prcard" class="box-img">
+                <div class="menu-box-content">
+                    <div class="content">
+                        <div class="name">
+                            <h4 class="menu-content-title">Blueberry Blast</h4>
+                            <button class="btn-secondary-btn">SEE FULL RANGE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menuLine2">
+            <div class="menu-box">
+                <img src="../media/prcard2.jpg" alt="prcard" class="box-img">
+                <div class="menu-box-content">
+                    <div class="content">
+                        <div class="name">
+                            <h4 class="menu-content-title">Green Apple</h4>
+                            <button class="btn-secondary-btn">SEE FULL RANGE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-box">
+                <img src="../media/prcard1.jpg" alt="prcard" class="box-img">
+                <div class="menu-box-content">
+                    <div class="content">
+                        <div class="name">
+                            <h4 class="menu-content-title">Mango</h4>
+                            <button class="btn-secondary-btn">SEE FULL RANGE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-box">
+                <img src="../media/prcard2.jpg" alt="prcard" class="box-img">
+                <div class="menu-box-content">
+                    <div class="content">
+                        <div class="name">
+                            <h4 class="menu-content-title">Lotus Biscuff</h4>
+                            <button class="btn-secondary-btn">SEE FULL RANGE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-box">
+                <img src="../media/prcard1.jpg" alt="prcard" class="box-img">
+                <div class="menu-box-content">
+                    <div class="content">
+                        <div class="name">
+                            <h4 class="menu-content-title">Belgian Chocolate</h4>
+                            <button class="btn-secondary-btn">SEE FULL RANGE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        let img = document.querySelector(".box");
+        let hoverContent = document.querySelector(".box-content");
+
+        querySelector(".box").addEventListener("mouseover", function () {
+            hoverContent.style.opacity = "1";
+        })
+        img.addEventListener("mouseout", function () {
+            hoverContent.style.opacity = "0";
+        })
+    </script>
+</body>
+
+</html>

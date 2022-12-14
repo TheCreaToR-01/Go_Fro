@@ -1,0 +1,238 @@
+.footer {
+  padding: 2rem 4rem 0rem 4rem;
+  background-color: var(--secondary-color);
+}
+
+.footerContent{
+  margin: auto;
+  max-width: 1200px;
+}
+
+
+.goFroLogo {
+  width: 15rem;
+  margin-top: 0;
+  display: block;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  margin-left: auto;
+}
+
+
+footer h4 {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  margin: 1rem auto;
+  filter: invert(100%);
+  text-align: center;
+  font-family: var(--font1);
+}
+
+h4:before,
+h4:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  margin: auto;
+}
+
+.centerSide {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.productsQuick {
+  width: 25%;
+  font-family: var(--font1);
+}
+
+.productsQuick input {
+  width: 180px;
+}
+
+.quick-links {
+  width: 25%;
+  font-family: var(--font1);
+}
+
+.centerSide h3 {
+  margin: 1rem 0;
+  color: white;
+  font-family: var(--font1);
+}
+
+.centerSide ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.centerSide ul li {
+  margin: 0.2rem 0;
+}
+
+.centerSide ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: var(--font2);
+}
+
+.centerSide ul li a:hover {
+  color: pink;
+}
+
+.dropdown,
+.dropdown2 {
+  color: white;
+  display: none;
+}
+
+.dropdown:hover {
+  cursor: pointer;
+}
+
+.dropdown2:hover {
+  cursor: pointer;
+}
+
+input {
+  margin: 0.5rem auto;
+  font-family: var(--font2) !important;
+  padding: 0.8rem 1.5rem;
+  border: 1px solid var(--secondary-color);
+  border-radius: var(--radiusSize);
+  outline: none;
+  width: inherit;
+  font-size: var(--oneSizer);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.subBtn {
+  padding: 0.7rem 1.5rem;
+  font-family: var(--font1);
+  font-weight: 700;
+  font-size: var(--oneSizer);
+  color: var(--secondary-color);
+  border: 2px solid white;
+  border-radius: var(--radiusSize);
+}
+
+.subBtn:hover {
+  cursor: pointer;
+  color: white;
+  background-color: var(--secondary-color);
+}
+
+.social-icons {
+  width: 20%;
+  font-family: var(--font1);
+  margin-left: 5%;
+}
+
+.social-icons h3 {
+  font-family: var(--font1);
+  text-transform: capitalize;
+}
+
+.social-icons a {
+  margin: 2rem 2rem 0 0;
+  font-size: var(--twoSizer);
+  color: rgb(255, 255, 255);
+}
+
+.social-icons a:hover {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+}
+
+.cc-text {
+  font-family: var(--font2);
+  color: rgba(255, 255, 255, 0.836);
+  padding-bottom: 1rem;
+  padding-top: 3.5rem;
+  text-align: center;
+}
+
+.cc-text-header {
+  padding-top: 1rem;
+  font-size: var(--oneSizerThree);
+  margin-top: 2rem;
+}
+
+.cc-text-para {
+  padding-top: 0rem;
+  font-size: var(--oneSizer);
+}
+
+.dropdown.active {
+  transform: rotate(180deg);
+}
+
+.dropdown2.active {
+  transform: rotate(180deg);
+}
+
+@media all and (max-width:500px) {
+  .goFroLogo{
+    margin-bottom: 0.5rem;
+  }
+  .centerSide {
+    display: block;
+    margin: 1rem 0;
+  }
+
+  .quick-links {
+    width: 100%;
+  }
+
+  .productsQuick {
+    width: 100%;
+  }
+
+  .dropdown,
+  .dropdown2 {
+    display: inline-block;
+  }
+
+  .dropdownContent {
+    display: none;
+  }
+
+  .dropdownContent2 {
+    display: none;
+  }
+
+  .icons{
+    text-align: center;
+  }
+
+  .social-icons {
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .centerSide h3 {
+    display: inline-block;
+  }
+
+  .cc-text-header{
+    margin-top: 0;
+  }
+
+  .cc-text-para{
+    font-size: 0.8rem;
+  }
+}

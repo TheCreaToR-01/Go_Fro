@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - GoFro</title>
+    <link rel="stylesheet" href="./css/rootStyles.css">
+    <link rel="stylesheet" href="./css/contact.css">
+</head>
+
+<body>
+
+    <body>
+        <div id="header"></div>
+
+        <section class="firstSection">
+            <div class="frontText">
+                <p class="withoutStroke"> CONTACT US</p>
+                <hr style="width: 150px; margin: auto;">
+            </div>
+        </section>
+
+        <!-- <div class="contactSection">
+            <div class="contactBoxes">
+                <div class="contactBox1">
+                    <div class="iconBox">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="contactContent">
+                        <p class="contactHead">PHONE</p>
+                        <p>+91553982462</p>
+                    </div>
+                </div>
+                <div class="contactBox2">
+                    <div class="iconBox">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="contactContent">
+                        <p class="contactHead">EMAIL</p>
+                        <p>info@gofro.com</p>
+                    </div>
+    
+                </div>
+                <div class="contactBox3">
+                    <div class="iconBox">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="contactContent">
+                        <p class="contactHead">ADDRESS</p>
+                        <p>New Delhi - 110017</p>
+                    </div>
+    
+                </div>
+            </div>
+    
+    <hr style="margin-bottom: 3rem; width: 70%; margin: 0 auto 3rem auto; border: 1px solid var(--secondary-color);">
+    
+            <div class="contactPageForm">
+                <h1 class="contactFormHead">GET IN TOUCH WITH US</h1>
+                <hr style="width: 20%;
+                border: 1px double var(--secondary-color); margin: 0.5rem 0;">
+                <hr style="width: 10%;
+                border: 1px double var(--secondary-color);">
+                <form class="contactForm">
+                    <input type="text" placeholder="Your name">
+                    <input type="email" placeholder="Your Email Address">
+                    <textarea name="yourmessage" id="message" rows="3"
+                                placeholder="Location(s) of your outlet?"></textarea>
+                    <button class="btn-secondary-btn">Submit</button>
+                </form>
+            </div>
+        </div> -->
+
+
+        <section class="contactSection">
+            <div class="leftContactBox">
+                <div class="leftContactBoxImg">
+                    <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/039018af5cd25c3fb4e9f786/q-min.jpg" alt="">
+
+                </div>
+                <div class="leftContactBoxContent">
+                    <div class="contactBox">
+                        <div class="iconBox">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="contactContent">
+                            <p class="contactHead">PHONE</p>
+                            <p class="contactPara">+91553982462</p>
+                        </div>
+                    </div>
+                    <div class="contactBox">
+                        <div class="iconBox">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="contactContent">
+                            <p class="contactHead">EMAIL</p>
+                            <p class="contactPara">info@gofro.com</p>
+                        </div>
+
+                    </div>
+                    <div class="contactBox">
+                        <div class="iconBox">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="contactContent">
+                            <p class="contactHead">ADDRESS</p>
+                            <p class="contactPara">New Delhi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rightContactBox">
+
+                <div class="rightContactBoxForm">
+                    <div class="contactPageForm">
+                        <h1 class="contactFormHead">Get In Touch</h1>
+                        <p class="contactFormPara">Have an inquiry or some feedbak for us? Fill out the form below to contact our team.</p>
+                        <!-- <hr style="width: 20%;
+                        border: 1px double var(--secondary-color); margin: 0.5rem 0;">
+                        <hr style="width: 10%;
+                        border: 1px double var(--secondary-color);"> -->
+                        <form class="contactForm">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" placeholder="Your name">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" placeholder="Your Email Address">
+                            <label for="message">How can we help you?</label>
+                            <textarea name="yourmessage" name="message" id="message" rows="3"></textarea>
+                            <button class="btn-secondary-btn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="footer"></div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script>
+            $(function () {
+                $("#header").load("./components/header.html");
+                $("#footer").load("./components/footer.html");
+            })
+        </script>
+
+    </body>
+
+</html>

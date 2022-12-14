@@ -1,0 +1,89 @@
+#product-slider {
+    padding: 5rem 0;
+}
+
+#product-slider i {
+    color: rgb(255, 255, 255);
+    padding: 1rem 1.2rem;
+    background-color: var(--secondary-color);
+    border-radius: 100%;
+}
+
+.productSlider {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.container {
+    height: 100vh;
+}
+
+.slider .owl-item.active.center .slider-card {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.product-img img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.product-slider-card {
+    background: pink;
+    margin: 5.5rem;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+    border-radius: 8px;
+    padding-bottom: 1rem;
+    font-family: var(--font1);
+    width: 300px;
+}
+
+#product-slider i {
+    color: rgb(255, 255, 255);
+}
+
+.owl-nav .owl-next {
+    position: absolute;
+    top: calc(50%);
+    right: 0%;
+    opacity: 1;
+    font-size: 80px;
+    z-index: 100;
+}
+
+.owl-nav .owl-prev {
+    position: absolute;
+    top: calc(50%);
+    left: 0%;
+    opacity: 1;
+    font-size: 80px;
+    z-index: 100;
+}
+
+.prHead {
+    text-align: center;
+    font-size: 2rem;
+    /* text-transform: uppercase; */
+    margin: 1rem;
+    color: white;
+}
+
+.pr-btn {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.btn {
+    padding: 1rem;
+    border-radius: 8px;
+    border: none;
+    margin: 1rem auto 1rem auto;
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: auto;
+}

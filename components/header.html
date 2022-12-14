@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/rootStyles.css">
+    <link rel="stylesheet" href="../css/header.css">
+</head>
+<body>
+
+    <!-- Navbar Component -->
+    <div class="hamburger" id="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    <navbar class="nav-bar" id="nav-bar">
+
+
+        <div class="left">
+            <ul class="nav-list">
+                <li class="nav-items">
+                    <a href="../products.html">Flavours</a>
+                </li>
+                <li class="nav-items">
+                    <a href="../locations.html">Our Locations</a>
+                </li>
+                <!-- <li class="nav-items">
+                    <a href="index.html">Menu</a>
+                </li> -->
+                <li class="nav-items">
+                    <a href="../catering.html">Catering</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <!-- Logo Image -->
+        <div class="middle">
+            <a href="index.html"><img src="../media/goFro_white.png" alt="giani's logo"></a>
+        </div>
+
+
+        <div class="right">
+            <ul class="nav-list">
+                <li class="nav-items">
+                    <a href="../contact.html">Contact Us</a>
+                </li>
+                <li class="nav-items">
+                    <a href="../franchise.html">Franchise</a>
+                </li>
+                <li class="nav-items">
+                    <a href="../about.html">About</a>
+                </li>
+            </ul>
+        </div>
+    </navbar>
+
+    <!-- Mobile Header Start -->
+    <div class="mobileHeader" id="mobileHeader">
+        <ul class="mobileMenuList">
+            <a href="../products.html">
+                <li class="mobileMenuItem">Flavours</li>
+            </a>
+            <a href="../locations.html">
+                <li class="mobileMenuItem">Our Locations</li>
+            </a>
+            <a href="../catering.html">
+                <li class="mobileMenuItem">Catering</li>
+            </a>
+            <a href="../contact.html">
+                <li class="mobileMenuItem">Contact US</li>
+            </a>
+            <a href="../products.html">
+                <li class="mobileMenuItem">Menu</li>
+            </a>
+            <a href="../franchise.html">
+                <li class="mobileMenuItem">Franchise</li>
+            </a>
+            <a href="../about.html">
+                <li class="mobileMenuItem">About</li>
+            </a>
+        </ul>
+    </div>
+
+
+
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const mobMenu = document.querySelector(".mobileHeader");
+
+        hamburger.addEventListener('click', function(){
+            hamburger.classList.toggle("active");
+            mobMenu.classList.toggle("active");
+        })
+
+        document.querySelectorAll(".mobileMenuItem").forEach(n => n.addEventListener("click", () =>{
+            hamburger.classList.remove("active");
+            mobMenu.classList.remove("active");
+        }))
+    </script>
+</body>
+</html>
+

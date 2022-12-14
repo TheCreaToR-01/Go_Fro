@@ -1,0 +1,14 @@
+.firstSection{
+    background: rgba(0,0,0,0.5) url("../media/co");
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    padding: 8rem 0;
+}
+
+.withoutStroke{
+    color: white;
+    font-family: var(--font1);
+    font-size: 5rem;
+    text-align: center;
+}
