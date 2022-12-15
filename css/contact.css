@@ -41,8 +41,8 @@
 }
 
 .contactForm input{
-    width: 400px;
-    /* margin: 1rem 0; */
+    /* width: %; */
+    margin: 1rem 0;
     margin-bottom: 1.5rem ;
     background-color: #f4eeee;
     border: 1px solid #f4eeee;
@@ -110,11 +110,13 @@
 .leftContactBoxContent{
     /* border: 2px solid green; */
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .contactBox{
-    margin: 0 3rem;
+    /* margin: 0 3rem; */
     /* border: 2px solid red; */
 }
 

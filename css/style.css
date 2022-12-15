@@ -84,12 +84,17 @@ video {
   position: relative;
 }
 
-.pr-img img {
+.product-img{
+  height: 150px;
+}
+
+.product-img img {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   border-bottom-left-radius: 0 !important;
   border-bottom-right-radius: 0 !important;
-  height: 20%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .product-slider-card {
